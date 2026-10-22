@@ -10,7 +10,16 @@ macOS / Windows 键鼠共享软件。一套键鼠在两台电脑之间跨屏使�
 
 ## 直接安装
 
-安装包将在仓库的 Releases 页面单独发布。源码仓库不包含安装器、Python 环境或本地构建缓存；自行构建时输出位于 `dist/v0.5.8/`。使用本轮功能时请同时更新两端：
+安装包见 [0.5.8 预发布下载页](https://github.com/wecomed/Share-Monkey/releases/tag/v0.5.8)。请同时更新两端；本版验证范围及未完成的实机验收见发布说明。
+
+| 系统 | 直接下载 |
+| --- | --- |
+| macOS · Apple Silicon | [Mac 安装包（ZIP）](https://github.com/wecomed/Share-Monkey/releases/download/v0.5.8/Share-Monkey-0.5.8-Mac.zip) |
+| Windows 11 · x64 | [Windows 安装器（EXE）](https://github.com/wecomed/Share-Monkey/releases/download/v0.5.8/Share-Monkey-0.5.8-Windows-Setup.exe) |
+| 两端合包 | [macOS + Windows（ZIP）](https://github.com/wecomed/Share-Monkey/releases/download/v0.5.8/Share-Monkey-0.5.8-macOS-Windows.zip) |
+| 文件校验 | [SHA256SUMS.txt](https://github.com/wecomed/Share-Monkey/releases/download/v0.5.8/SHA256SUMS.txt) |
+
+源码仓库不包含安装器、Python 环境或本地构建缓存；自行构建时输出位于 `dist/v0.5.8/`。
 
 - **Mac**：打开 `Share Monkey.app`；也提供 `Share-Monkey-0.5.8-Mac.zip`。无需安装 Python。本次构建适用于 Apple Silicon。
 - **Windows 11 x64**：运行 `Share-Monkey-0.5.8-Windows-Setup.exe`。自带 Python 3.12.10、Qt 和键鼠依赖，不需要另外安装 Python，也不需要管理员权限。
