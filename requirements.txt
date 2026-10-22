@@ -1,0 +1,6 @@
+pynput==1.8.1
+cryptography>=44.0.0,<47
+pyperclip==1.9.0
+PySide6-Essentials==6.8.3; sys_platform == "win32"
+bleak==3.0.2; sys_platform == "win32"
+pyobjc-framework-CoreBluetooth==12.2.2; sys_platform == "darwin"

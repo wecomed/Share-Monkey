@@ -1,0 +1,36 @@
+.venv/
+.python/
+.uv-cache/
+__pycache__/
+*.pyc
+dist/
+build/
+*.spec
+received/
+.DS_Store
+
+# Local credentials, preferences and diagnostic material.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+settings.json
+logs/
+*.log
+*.dmp
+*.core
+core
+.codex/
+.agents/
+/TEST_REPORT.md
+/previews/
+/validation/*
+!/validation/README.md
+
+# Private recordings used during development.
+*.MOV
+*.mov
+*.mp4
